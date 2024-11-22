@@ -81,6 +81,9 @@ input:valid {
 input:invalid {
 	box-shadow: none;
 }
+input[type="radio"] {
+  display: inline;
+}
 br {
     clear: both;
 }
