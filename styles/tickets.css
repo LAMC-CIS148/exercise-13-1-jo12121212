@@ -73,7 +73,7 @@ input, select {
     margin-bottom: .5em;
 }
 input:required, input[required] {
-	border: 3px solid #800000;
+	border: 3px solid red;
 }
 input:valid {
 	border: 1px solid black;
