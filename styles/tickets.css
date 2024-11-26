@@ -90,6 +90,15 @@ br {
 #buttons input {
 	width: 10em;
 }
+#payment_method label {
+    float: none;  /* Remove the float */
+    margin-left: 3em; /* Ensure some space between buttons */
+}
+
+#payment_method input[type="radio"] {
+    width: auto;
+}
+
 /* the styles for the navigation menu */
 #nav_menu ul {
 	list-style-type: none;
