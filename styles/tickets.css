@@ -73,8 +73,9 @@ input, select {
     margin-bottom: .5em;
 }
 input:required, input[required] {
-	border: 3px solid red;
+    border: 3px solid #800000;
 }
+
 input:valid {
 	border: 1px solid black;
 }
@@ -91,8 +92,8 @@ br {
 	width: 10em;
 }
 #payment_method label {
-    float: none;  /* Remove the float */
-    margin-left: 3em; /* Ensure some space between buttons */
+    float: none;  
+    margin-left: 3em; 
 }
 
 #payment_method input[type="radio"] {
