@@ -98,7 +98,13 @@ br {
 #payment_method input[type="radio"] {
     width: auto;
 }
+#month {
+    width: 7em;
+}
 
+#year {
+    width: 5em;
+}
 /* the styles for the navigation menu */
 #nav_menu ul {
 	list-style-type: none;
