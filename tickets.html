@@ -84,8 +84,21 @@
 				    	<option value="r">MasterCard</option>            
 				    	<option value="c">Discover</option>
 					</select><br>
-					<label for="Card_Number">Card Number</label>
+					<label for="Card_Number">Card Number:</label>
 					<input type="text" name="Card_Number" id="Card_Number" placeholder="16 digits"><br>
+					 <label for="month">Expiration date:</label>
+					    <select name="month" id="month">
+					        <option value="01">January</option>
+					        <option value="02">February</option>
+					        <!-- Add other months here -->
+					        <option value="12">December</option>
+					    </select>
+					    <label for="year">Expiration Year:</label>
+					    <select name="year" id="year">
+					        <option value="2024">2024</option>
+					        <!-- Add other years here up to four years in the future -->
+					        <option value="2028">2028</option>
+					    </select><br>
 				</fieldset>
 				<fieldset id="buttons">
 					<legend>Submit Your Membership</legend>
