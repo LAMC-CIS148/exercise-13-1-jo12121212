@@ -91,6 +91,10 @@ br {
 #buttons input {
 	width: 10em;
 }
+#payment_method input[type="radio"] {
+    margin-right: 0.5em; /* Adds a small space between the radio button and the label */
+    vertical-align: middle; /* Aligns radio button vertically with the text */
+}
 #payment_method label {
     float: none;  
     margin-left: 3em; 
