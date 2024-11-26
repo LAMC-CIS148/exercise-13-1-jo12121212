@@ -68,10 +68,14 @@
 					<label for="tickets">Number of Tickets:</label>
 					<input type="number" name="tickets" id="tickets" placeholder="Number of single tickets"><br>
 				</fieldset>
-				<fieldset>
-					<legend>Payment Method</legend>
-					<input type="radio" id="html" name="Bill_Me" value="Bill Me"><label for="Bill Me">Bill Me</label> <input type="radio" id="css" name="Credit_Card" value="Credit Card"><label for="Credit Card">Credit Card</label>
+				<fieldset id="payment_method">
+ 				   <legend>Payment Method</legend>
+   					 <input type="radio" id="bill_me" name="Bill_Me" value="Bill Me">
+   					 <label for="bill_me">Bill Me</label>
+    					<input type="radio" id="credit_card" name="Payment_Method" value="Credit Card">
+   					 <label for="credit_card">Credit Card</label>
 				</fieldset>
+
 				<fieldset>
 					<legend>Credit Card Information</legend>
 					<label for="Card_Type:">Card Type:</label>
